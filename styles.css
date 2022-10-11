@@ -1,0 +1,88 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 5rem;
+    padding: 0px;
+    gap: 3rem;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container {
+    height: 600px;
+    display: flex;
+    background: #1F2937;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 16px 0 0 5rem;
+}
+
+.logo, ul {
+    width: 33%;
+    max-height: 5rem;
+}
+
+.header-content {
+    margin: 5rem;
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    justify-content: space-around;
+    border: 1px solid red;
+
+}
+
+.website {
+    color: #f9faf8;
+    width: 400px;
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    width: 450px;
+    color: #e5e7eb;
+    border: 1px solid red;
+    
+}
+
+
+button {
+    color: #e5e7eb;
+    background: #3882f6;
+    padding: 8px;
+    width: 8rem;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-content > img {
+    background: gray;
+    width: 400px;
+    height: 300px;
+    /* margin-right: 120px; */
+}
+
